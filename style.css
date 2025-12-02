@@ -1,0 +1,43 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(255, 229, 229);
+    border-top-right-radius: 50px;
+   
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+
+    /* This is Border shorthand */
+
+    border: 2px solid blue;
+    border-left-color: green;
+    border-right-style: dotted;
+    /* padding-top: 100px;
+    padding-left: 100px; */
+
+    /* for clockwise top|right|bottom|left */
+    padding:1px 2px 3px 4px;   
+
+    /* margin */
+    /* margin-bottom: 10px; */
+    margin:1px 2px 3px 4px;
+}
+
+h1{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: purple; */
+     /* This is Border shorthand */
+     
+     border: 2px dashed red;
+     border-radius: 50px;
+     margin: 0;
+}
+
+button{
+    background-color: yellow;
+}
+button:hover{
+    background-color: red;
+}
